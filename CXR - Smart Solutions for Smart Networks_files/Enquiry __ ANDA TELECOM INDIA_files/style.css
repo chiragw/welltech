@@ -1,0 +1,91 @@
+
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+a{
+	text-decoration : none;
+	color : blue;
+}
+a:hover{
+	text-decoration : underline;
+}
+a:visited{
+	text-decoration : none;
+	color : blue;
+}
+.sexypanels{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 180px; /* width of menu */
+}
+
+.sexypanels li{
+border-bottom: 1px solid white; /* white border beneath each menu item */
+}
+
+.sexypanels li a{
+background: #C0C0C0 url('images/contents.jpg') no-repeat right top; /*color of menu by default*/
+display: block;
+width: auto;
+/* Vertical (top/bottom) padding for each menu link */
+text-indent: 8px;
+text-decoration: none;
+border-bottom: 1px solid #000000; /*bottom border of menu link. Should be equal or darker to link's bgcolor*/; font-style:normal; font-variant:normal; font-weight:bold; font-size:13px; font-family:Lucida Grande, Trebuchet MS, Verdana; padding-left:0; padding-right:0; padding-top:5px; padding-bottom:5px; color:#C0C0C0
+}
+
+.sexypanels li a:visited, .sexypanels li a:active{
+
+}
+
+.sexypanels li a:hover{
+background-color: #000000; /*color of menu onMouseover*/
+color: #FFFFFF;
+border-bottom: 1px solid #000000; /*bottom border of menu link during hover. Should be equal or darker to link's hover's bgcolor*/; text-align:left; margin-left:15px; background-image:url('images/contents2.jpg')
+}
+
+.sexypanels2{
+list-style-type: none;
+margin-left: 20px;
+padding: 0;
+width: 250px; /* width of menu */
+}
+
+.sexypanels2 li{
+border-bottom: 1px solid white; /* white border beneath each menu item */
+}
+
+.sexypanels2 li a{
+background: #C0C0C0 url('images/contents.png') no-repeat right top; /*color of menu by default*/
+display: block;
+width: auto;
+/* Vertical (top/bottom) padding for each menu link */
+text-indent: 8px;
+text-decoration: none;
+border-bottom: 1px solid #000000; /*bottom border of menu link. Should be equal or darker to link's bgcolor*/; font-style:normal; font-variant:normal; font-weight:bold; font-size:13px; font-family:Lucida Grande, Trebuchet MS, Verdana; padding-left:0; padding-right:0; padding-top:5px; padding-bottom:5px; color:#C0C0C0
+}
+
+.sexypanels2 li a:visited, .sexypanels2 li a:active{
+
+}
+
+.sexypanels2 li a:hover{
+background-color: #000000; /*color of menu onMouseover*/
+color: #FFFFFF;
+border-bottom: 1px solid #000000; /*bottom border of menu link during hover. Should be equal or darker to link's hover's bgcolor*/; text-align:left; margin-left:15px;margin-right:15px; background-image:url('images/contents2.png')
+}
+
+
+body{
+	background-color: #deeaf6;
+}
+.outer{
+	background-color: #fff;
+	width : 1020px;
+	border: 2px solid #000;
+	padding-top : 5px;
+	margin  :auto;
+}
+.style1  img{
+	margin : auto;
+}
