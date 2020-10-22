@@ -131,6 +131,11 @@ input[type="file"] {
 	.marginer{
 		margin-left: 37%;
 		width: 25%;
+		
+	}
+	.margino{
+		width: 25%;
+		float: right;
 	}
 	.img_marginer{
 		margin-left: 5%;
